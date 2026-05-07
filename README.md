@@ -1,5 +1,5 @@
 # SPO2-PulseBoard
-A custom heart rate and SpO2 monitor built on an Elegoo Uno R3 with a MAX30105 sensor and SSD1306 OLED display. Features a custom PCB, mode-switching buttons, and an alarm LED. Uses lightweight R-ratio SpO2 calculation and peak-detection heart rate — all tuned to run within the Arduino Uno's RAM limits.
+A custom heart rate and SpO2 monitor built on an Arduino Uno R3 with a MAX30105 sensor and SSD1306 OLED display. Features a custom PCB, mode-switching buttons, and an alarm LED. Uses lightweight R-ratio SpO2 calculation and peak-detection heart rate — all tuned to run within the Arduino Uno's RAM limits.
 
 
 
@@ -7,7 +7,7 @@ A custom heart rate and SpO2 monitor built on an Elegoo Uno R3 with a MAX30105 s
 
 # PulseBoard
 
-A custom heart rate and SpO2 monitor built on an Elegoo Uno R3 with a MAX30105 sensor and SSD1306 OLED display. Features a custom PCB, mode-switching buttons, and an alarm LED. Uses lightweight R-ratio SpO2 calculation and peak-detection heart rate — all tuned to run within the Arduino Uno's RAM limits.
+A custom heart rate and SpO2 monitor built on an Arduino Uno R3 with a MAX30105 sensor and SSD1306 OLED display. Features a custom PCB, mode-switching buttons, and an alarm LED. Uses lightweight R-ratio SpO2 calculation and peak-detection heart rate — all tuned to run within the Arduino Uno's RAM limits.
 
 ---
 
@@ -15,7 +15,7 @@ A custom heart rate and SpO2 monitor built on an Elegoo Uno R3 with a MAX30105 s
 
 | Component | Details |
 |-----------|---------|
-| Microcontroller | Elegoo Uno R3 |
+| Microcontroller | Arduino Uno R3 |
 | Sensor | MAX30105 optical heart rate / SpO2 |
 | Display | SSD1306 128×32 OLED (I2C) |
 | PCB | Custom — see `/hardware` for Gerber files |
@@ -98,7 +98,7 @@ Install these through the Arduino IDE Library Manager before compiling:
 
 1. Wire up the hardware according to the pin map above or use the custom PCB
 2. Install the required libraries
-3. Upload `heart_monitor.ino` to your Elegoo Uno R3
+3. Upload `heart_monitor.ino` to your Arduino Uno R3
 4. Place your finger **lightly** on the sensor — pressing too hard flattens the pulse waveform and stops beat detection
 5. Press **D2** to switch between Heart Rate and SpO2 mode
 6. Wait 8 seconds for a stable heart rate average, or 5 seconds for an SpO2 reading
