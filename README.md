@@ -1,5 +1,10 @@
 # SPO2-PulseBoard
 A custom heart rate and SpO2 monitor built on an Elegoo Uno R3 with a MAX30105 sensor and SSD1306 OLED display. Features a custom PCB, mode-switching buttons, and an alarm LED. Uses lightweight R-ratio SpO2 calculation and peak-detection heart rate — all tuned to run within the Arduino Uno's RAM limits.
+
+
+
+<img width="4032" height="3024" alt="IMG_5669" src="https://github.com/user-attachments/assets/b8a35f74-d82a-4b67-ad60-d8907aa285ce" />
+
 # PulseBoard
 
 A custom heart rate and SpO2 monitor built on an Elegoo Uno R3 with a MAX30105 sensor and SSD1306 OLED display. Features a custom PCB, mode-switching buttons, and an alarm LED. Uses lightweight R-ratio SpO2 calculation and peak-detection heart rate — all tuned to run within the Arduino Uno's RAM limits.
